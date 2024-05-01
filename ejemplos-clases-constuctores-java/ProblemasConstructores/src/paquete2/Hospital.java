@@ -28,6 +28,10 @@ public class Hospital {
         numeroDoctores = 100;
         numeroEnfermeros = 400;
     }
+        public Hospital(String a , String b , int c , int d){
+
+    }
+    
     
         
     public void establecerNombre(String n){
