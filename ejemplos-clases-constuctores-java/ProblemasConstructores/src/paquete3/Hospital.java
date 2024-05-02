@@ -61,8 +61,13 @@ public class Hospital {
                 + "\nCiudad: %s"
                 + "\nNumero de Doctores: %d"
                 + "\nNumero de Enfermeros: %d\n",
+                /*
+                  Se puede utilizar esta variacion para llamar a datos,
+                  ya que nos da el valor que "ciudad" tiene en ese momento,de
+                  la misma forma que lo hacer el metodo, las dos maneras es valido 
+                */
                 obtenerNombre(),
-                obtenerCiudad(),
+                ciudad,
                 obtenerNumeroDoctores(),
                 obtenerNumeroEnfermeros());
         return cadena;
